@@ -1,73 +1,149 @@
 import Foundation
 import SwiftUI
 import Combine
+import SwiftData
+
+protocol RecentModelStorage {
+    func read(using modelContext: ModelContext) -> [RecentModel]
+    func insert(model: RecentModel, using modelContext: ModelContext)
+    func delete(model: RecentModel, using modelContext: ModelContext)
+    func deleteAll(using modelContext: ModelContext)
+}
+
+
+
 
 enum RootViewAction {
     case recommandedTextDidTap(String)
+    case searchButtonDidTap(String)
+    case changeSearchState(Bool)
 }
 
 
 final class RootViewModel: BaseViewModel {
    
     
-    let results =  [
-        "김서근", "포뇨", "하울", "소피아", "캐시퍼", "소스케",
-        "치히로", "하쿠", "가오나시", "제니바", "카브", "마르클",
-        "토토로", "사츠키", "지브리", "스튜디오", "캐릭터"
-    ]
-    @Published var searchText: String = ""
-    @Published var searchResult: [String] = []
-    @Published var action: RootViewAction?
     
-    override init() {
-        super.init()
-        bindState()
-        bindAction()
+    var context: ModelContext
+    
+    var data: [RecentModel] = []
+    
+    @Published var searchText: String = ""
+    @Published var searchResult: [RecentModel] = []
+    @Published var actions: [RootViewAction] = []
+    @Published var isSearch: Bool = false
+    
+    
+     init(context: ModelContext) {
+         self.context = context
+         super.init()
     }
     
-}
 
-extension RootViewModel {
+    override func bind() {
+        data = self.read(using: context)
+        super.bind()
+        
+    }
     
-    func bindState()  {
+    override func bindState()  {
+        
+        super.bindState()
         
             $searchText
             .withUnretained(self)
             .removeDuplicates(by: { $0.1 == $1.1})
-            .map { owner,text -> [String] in
-                
+            .map { owner,text -> [RecentModel] in
+            
+           
                 guard !text.isEmpty else {
-                    return owner.results
+                    return owner.data
                 }
-                return owner.results.filter{$0.hasPrefix(text)}.sorted()
+                return owner.data.filter{$0.name.hasPrefix(text)}
             }
-            .print("HH")
             .eraseToAnyPublisher()
             .assign(to: &$searchResult)
         
+        
+        
     }
     
-    func bindAction() {
+    override func bindAction() {
         
-        $action
+        super.bindAction()
+        
+        $actions
             .withUnretained(self)
-            .print("DEUBG")
-            .sink { owner, action  in
-                guard let action = action else {
-                    return
+            .sink { owner, actions  in
+                for action in actions {
+                    switch action {
+                        
+                        case let .recommandedTextDidTap(text), let .searchButtonDidTap(text):
+                            owner.updateText(text)
+                            
+
+                        case let .changeSearchState(flag):
+                            owner.isSearch = flag
+                        
+                            guard flag && !owner.searchText.isEmpty else { // 비어있거나 검색전으로 바뀌는거면 무시
+                                return
+                            }
+                            
+                            
+                            if let index = owner.data.firstIndex(where: {$0.name == owner.searchText}) {
+                                    // 중복값있을 때
+                            
+                                owner.delete(model: owner.data[index], using: owner.context)
+                                
+                            }
+                            
+                            owner.insert(model: RecentModel(name: owner.searchText), using: owner.context)
+                            owner.data = owner.read(using: owner.context)
+                    }
+
                 }
-                
-                switch action {
-                    
-                    case let .recommandedTextDidTap(text):
-                        owner.searchText = text
-                        break
-                    
-                }
+
             }
             .store(in: &subscription)
         
     }
+}
+
+extension RootViewModel {
+    func updateText(_ text: String) {
+        self.searchText = text
+    }
+}
+
+extension RootViewModel : RecentModelStorage {
+    
+    func read(using modelContext: ModelContext) -> [RecentModel] {
+        
+        let descriptor = FetchDescriptor<RecentModel>(
+            sortBy: [SortDescriptor<RecentModel>(\.date,order: .reverse)]
+        )
+        
+        do {
+            return try modelContext.fetch(descriptor)
+        } catch {
+            fatalError("Could not read: \(error)")
+        }
+    }
+    
+    func insert(model: RecentModel, using modelContext: ModelContext) {
+        modelContext.insert(model)
+    }
+    
+    func delete(model: RecentModel, using modelContext: ModelContext) {
+        modelContext.delete(model)
+    }
+    
+    func deleteAll(using modelContext: ModelContext) {
+        modelContext.container.deleteAllData()
+    }
+    
+    
+
 }
 
 

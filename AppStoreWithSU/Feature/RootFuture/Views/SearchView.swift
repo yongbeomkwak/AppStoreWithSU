@@ -3,6 +3,8 @@ import SwiftUI
 struct SearchView: View {
     
     @Binding var text: String
+    @Binding var actions: [RootViewAction]
+    
     
     var body: some View {
         HStack {
@@ -11,10 +13,15 @@ struct SearchView: View {
      
                     TextField("Search", text: $text)
                         .foregroundColor(.primary)
+                        .onSubmit{
+                            actions = [.searchButtonDidTap(text),.changeSearchState(true)]
+                        }
+                    
      
                     if !text.isEmpty {
                         Button(action: {
-                            self.text = ""
+                            actions = [.recommandedTextDidTap(""),
+                                                 .changeSearchState(false)]
                         }) {
                             Image(systemName: "xmark.circle.fill")
                         }
@@ -29,8 +36,4 @@ struct SearchView: View {
             }
             .padding(.horizontal)
     }
-}
-
-#Preview {
-    SearchView(text: .constant(""))
 }

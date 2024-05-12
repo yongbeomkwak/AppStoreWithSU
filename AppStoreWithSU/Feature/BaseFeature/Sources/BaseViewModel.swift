@@ -9,7 +9,24 @@ open class BaseViewModel: ObservableObject {
     @Published public var isLoading = false
     @Published public var errorMessage = ""
 
-    public init() {}
+    public init() {
+        bind()
+    }
+    
+    open func bind() {
+        bindAction()
+        bindState()
+    }
+    
+    open func bindAction() {
+        
+    }
+    
+    open func bindState() {
+        
+    }
+    
+
 
     @MainActor
     public func withAsyncTry<Object: AnyObject>(
