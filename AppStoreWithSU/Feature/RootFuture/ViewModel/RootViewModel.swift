@@ -17,6 +17,7 @@ enum RootViewAction {
     case recommandedTextDidTap(String)
     case searchButtonDidTap(String)
     case changeSearchState(Bool)
+    case deleteButtonDidTap(RecentModel)
 }
 
 
@@ -99,6 +100,10 @@ final class RootViewModel: BaseViewModel {
                             
                             owner.insert(model: RecentModel(name: owner.searchText), using: owner.context)
                             owner.data = owner.read(using: owner.context)
+                    case let .deleteButtonDidTap(model):
+                        owner.delete(model: model, using: owner.context)
+                        owner.data = owner.read(using: owner.context)
+                        owner.searchResult = owner.data
                     }
 
                 }

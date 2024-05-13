@@ -22,6 +22,7 @@
 		B0133C502BF0BEDD00CD162F /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0133C4F2BF0BEDD00CD162F /* ResultViewModel.swift */; };
 		B0133C532BF0BF2100CD162F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0133C522BF0BF2100CD162F /* NetworkManager.swift */; };
 		B0133C572BF0C17000CD162F /* RecentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0133C562BF0C17000CD162F /* RecentModel.swift */; };
+		B0133C592BF1BEC700CD162F /* RecentTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0133C582BF1BEC700CD162F /* RecentTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		B0133C4F2BF0BEDD00CD162F /* ResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
 		B0133C522BF0BF2100CD162F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		B0133C562BF0C17000CD162F /* RecentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentModel.swift; sourceTree = "<group>"; };
+		B0133C582BF1BEC700CD162F /* RecentTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				B0133C112BEFA2D300CD162F /* ContentView.swift */,
 				B0133C3E2BEFA3DA00CD162F /* SearchView.swift */,
 				B0133C4D2BF0BE6100CD162F /* ResultView.swift */,
+				B0133C582BF1BEC700CD162F /* RecentTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				B0133C422BEFACEF00CD162F /* RootViewModel.swift in Sources */,
 				B0133C532BF0BF2100CD162F /* NetworkManager.swift in Sources */,
 				B0133C4B2BF0A2CF00CD162F /* Publiser+Extension.swift in Sources */,
+				B0133C592BF1BEC700CD162F /* RecentTextView.swift in Sources */,
 				B0133C3F2BEFA3DA00CD162F /* SearchView.swift in Sources */,
 				B0133C122BEFA2D300CD162F /* ContentView.swift in Sources */,
 				B0133C4E2BF0BE6100CD162F /* ResultView.swift in Sources */,

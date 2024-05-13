@@ -14,8 +14,8 @@
             filePath = "AppStoreWithSU/Feature/RootFuture/ViewModel/RootViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "bindAction()"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "AppStoreWithSU/Feature/RootFuture/ViewModel/RootViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "bindAction()"
             landmarkType = "7">
          </BreakpointContent>
@@ -40,14 +40,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "3DE929AC-F5E6-4F28-A12E-32C56062B4B8"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AppStoreWithSU/Feature/RootFuture/ViewModel/RootViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
             landmarkName = "bindAction()"
             landmarkType = "7">
             <Locations>
@@ -111,6 +111,36 @@
                   endingLineNumber = "95"
                   offsetFromSymbolStart = "48">
                </Location>
+               <Location
+                  uuid = "3DE929AC-F5E6-4F28-A12E-32C56062B4B8 - ab2d032b7ff1b15e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AppStoreWithSU.RootViewModel, Swift.Array&lt;AppStoreWithSU.RootViewAction&gt;) -&gt; () in AppStoreWithSU.RootViewModel.bindAction() -&gt; ()"
+                  moduleName = "AppStoreWithSU"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamp/Desktop/AppStoreWithSU/AppStoreWithSU/Feature/RootFuture/ViewModel/RootViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "940">
+               </Location>
+               <Location
+                  uuid = "3DE929AC-F5E6-4F28-A12E-32C56062B4B8 - ab2d032b7ff1b15e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AppStoreWithSU.RootViewModel, Swift.Array&lt;AppStoreWithSU.RootViewAction&gt;) -&gt; () in AppStoreWithSU.RootViewModel.bindAction() -&gt; ()"
+                  moduleName = "AppStoreWithSU"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamp/Desktop/AppStoreWithSU/AppStoreWithSU/Feature/RootFuture/ViewModel/RootViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "1072">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -124,8 +154,8 @@
             filePath = "AppStoreWithSU/Feature/RootFuture/ViewModel/RootViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
             landmarkName = "bindAction()"
             landmarkType = "7">
          </BreakpointContent>
@@ -140,8 +170,8 @@
             filePath = "AppStoreWithSU/Feature/RootFuture/ViewModel/RootViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "bindState()"
             landmarkType = "7">
          </BreakpointContent>
@@ -156,8 +186,8 @@
             filePath = "AppStoreWithSU/Feature/RootFuture/ViewModel/RootViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "bindAction()"
             landmarkType = "7">
             <Locations>
@@ -213,14 +243,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "77DBF770-8FF3-4C15-84C6-1CBAB864329C"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AppStoreWithSU/Feature/RootFuture/ViewModel/RootViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
             landmarkName = "bindAction()"
             landmarkType = "7">
          </BreakpointContent>
@@ -229,16 +259,207 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "21E1080C-6458-4B99-B13F-61D3198F977F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppStoreWithSU/Feature/RootFuture/ViewModel/RootViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "bindAction()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31B0C871-96A1-47B3-ABFF-8B40C61887BA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppStoreWithSU/Feature/RootFuture/Views/RecentTextView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "31B0C871-96A1-47B3-ABFF-8B40C61887BA - 5f5f72e03b96d25d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, SwiftUI.Button&lt;SwiftUI.Image&gt;)&gt; in AppStoreWithSU.RecentTextView.body.getter : some"
+                  moduleName = "AppStoreWithSU"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamp/Desktop/AppStoreWithSU/AppStoreWithSU/Feature/RootFuture/Views/RecentTextView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "31B0C871-96A1-47B3-ABFF-8B40C61887BA - 485ab43b7f735ecf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; SwiftUI.Image in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, SwiftUI.Button&lt;SwiftUI.Image&gt;)&gt; in AppStoreWithSU.RecentTextView.body.getter : some"
+                  moduleName = "AppStoreWithSU"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamp/Desktop/AppStoreWithSU/AppStoreWithSU/Feature/RootFuture/Views/RecentTextView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "31B0C871-96A1-47B3-ABFF-8B40C61887BA - 5f5f72e03b96d25d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, SwiftUI.Button&lt;SwiftUI.Image&gt;)&gt; in AppStoreWithSU.RecentTextView.body.getter : some"
+                  moduleName = "AppStoreWithSU"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamp/Desktop/AppStoreWithSU/AppStoreWithSU/Feature/RootFuture/Views/RecentTextView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DC5AB03-97C0-41EE-B257-1B54BEF2F19C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppStoreWithSU/Feature/RootFuture/Views/RecentTextView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "3DC5AB03-97C0-41EE-B257-1B54BEF2F19C - e311d20d57738129"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, SwiftUI.Button&lt;SwiftUI.Image&gt;)&gt; in AppStoreWithSU.RecentTextView.body.getter : some"
+                  moduleName = "AppStoreWithSU"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamp/Desktop/AppStoreWithSU/AppStoreWithSU/Feature/RootFuture/Views/RecentTextView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "3DC5AB03-97C0-41EE-B257-1B54BEF2F19C - e311d20d57738129"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.onTapGesture(count: Swift.Int, perform: () -&gt; ()) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, SwiftUI.Button&lt;SwiftUI.Image&gt;)&gt; in AppStoreWithSU.RecentTextView.body.getter : some"
+                  moduleName = "AppStoreWithSU"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamp/Desktop/AppStoreWithSU/AppStoreWithSU/Feature/RootFuture/Views/RecentTextView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A1CD8FC-2BCD-467A-8708-5EE2877D0C0F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppStoreWithSU/Feature/RootFuture/ViewModel/RootViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "bindAction()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72540A18-C610-43C4-AF42-E464AB0530B9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppStoreWithSU/Feature/RootFuture/ViewModel/RootViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "bindAction()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1BBCEBD6-60F2-4C23-BCB5-57B1CF8802C4"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AppStoreWithSU/Feature/RootFuture/ViewModel/RootViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
             landmarkName = "bindAction()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1BBCEBD6-60F2-4C23-BCB5-57B1CF8802C4 - ab2d032b7ff1b700"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AppStoreWithSU.RootViewModel, Swift.Array&lt;AppStoreWithSU.RootViewAction&gt;) -&gt; () in AppStoreWithSU.RootViewModel.bindAction() -&gt; ()"
+                  moduleName = "AppStoreWithSU"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamp/Desktop/AppStoreWithSU/AppStoreWithSU/Feature/RootFuture/ViewModel/RootViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "1972">
+               </Location>
+               <Location
+                  uuid = "1BBCEBD6-60F2-4C23-BCB5-57B1CF8802C4 - ab2d032b7ff1b7c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AppStoreWithSU.RootViewModel, Swift.Array&lt;AppStoreWithSU.RootViewAction&gt;) -&gt; () in AppStoreWithSU.RootViewModel.bindAction() -&gt; ()"
+                  moduleName = "AppStoreWithSU"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hamp/Desktop/AppStoreWithSU/AppStoreWithSU/Feature/RootFuture/ViewModel/RootViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "1948">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

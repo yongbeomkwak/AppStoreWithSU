@@ -25,13 +25,12 @@ struct ContentView: View {
                 if viewModel.isSearch == false {
                     List {
                         ForEach(viewModel.searchResult, id:\.self) { data in
-                            Text(data.name).onTapGesture {
-                                viewModel.actions = [.recommandedTextDidTap(data.name),.changeSearchState(true)]
-                            }
-                            
+                            RecentTextView(model: data, actions: $viewModel.actions)
                         }
+                        .listRowSeparator(.hidden)
                     }
-                    .listStyle(PlainListStyle())
+                    .listStyle(.plain)
+                    
                 } else {
                     EmptyView()
                 }
